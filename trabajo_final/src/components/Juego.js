@@ -1,15 +1,13 @@
-import React from "react";
 
 
-
-const Juego=()=>{
-
-    return(
-        <div>
-            <h1>GAME</h1>
-        </div>
-    )
+const lista=[];
+const encontradas=()=>{
+  return lista;
 
 }
 
-export default Juego;
+const encontrar=(numero)=>{
+  lista.push(numero)
+}
+
+export default {encontradas, encontrar};
